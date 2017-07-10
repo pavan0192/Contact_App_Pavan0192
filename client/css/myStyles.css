@@ -1,0 +1,288 @@
+html,
+body,
+header,
+.view {
+    height: 100% !important;
+}
+
+[ng\:cloak], [ng-cloak], [data-ng-cloak], [x-ng-cloak], .ng-cloak, .x-ng-cloak {
+  display: none !important;
+}
+
+/* Navigation*/
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.navbar-two {
+    background-color: #3e4551 !important;
+}
+
+.top-nav-collapse {
+    background-color: #3e4551 !important;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        background-color: #3e4551 !important;
+    }
+}
+/*Intro*/
+
+.view {
+    background: url("/images/img_home.jpg")no-repeat center center fixed !important;
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    -o-background-size: cover !important;
+    background-size: cover !important;
+}
+
+@media (max-width: 768px) {
+    .full-bg-img,
+    .view {
+        height: auto !important;
+        position: relative !important;
+    }
+}
+
+.description {
+    padding-top: 25% !important;
+    padding-bottom: 3rem !important;
+    color: #fff !important;
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem !important;
+        text-align: center !important;
+    }
+    #app-mockup {
+        max-height: 400px !important;
+    }
+}
+
+.footter-clr {
+	background-color: black;
+}
+
+.img-center{
+ margin: 0px;
+   padding: 0px;
+   
+}
+
+
+ /* Side Bar CSS */
+.sticky-top {
+  top: 0;
+  z-index: 1030
+}
+.sticky-top {
+  position: -webkit-sticky;
+  position: sticky
+}
+
+@media only screen and (max-width:991px) {
+  .sticky, .sticky-placeholder {
+    display: none
+  }
+}
+
+
+@media only screen and (max-width:992px) {
+  .col-lg-4 .sticky, .col-md-4 .sticky, .col-xl-4 .sticky {
+    width: 200px
+  }
+}
+
+@media only screen and (min-width:992px) {
+  .col-md-4 .sticky .col-lg-4 .sticky, .col-xl-4 .sticky {
+    width: 400px
+  }
+}
+
+@media only screen and (min-width:1200px) {
+  .col-md-4 .sticky {
+    width: 300px
+  }
+}
+
+@media only screen and (min-width:1400px) {
+  .col-md-4 .sticky {
+    width: 350px
+  }
+}
+
+.fa-sticky-note:before {
+  content: "\f249"
+}
+
+.fa-sticky-note-o:before {
+  content: "\f24a"
+}
+
+.nav-pills .nav-link {
+  border-radius: .40rem
+}
+
+
+.nav-pills .nav-link {
+  border-radius: .40rem
+}
+
+.nav-pills .nav-item.show .nav-link,
+.nav-pills .nav-link.active {
+  color: #fff;
+  cursor: default;
+  background-color: #0275d8
+}
+
+.nav-fill .nav-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 auto;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  text-align: center
+}
+
+.nav-justified .nav-item {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  text-align: center
+}
+
+.nav-pills.horizontal-spy .nav-item .active {
+  border-bottom: 5px solid #45526E;
+  border-left: none
+}
+
+.nav-pills.horizontal-spy .nav-item:hover {
+  background-color: transparent;
+  color: #45526E;
+  font-weight: 500;
+  border-left: none
+}
+
+.nav-pills .nav-item.open .nav-link,
+.nav-pills .nav-item.open .nav-link:focus,
+.nav-pills .nav-item.open .nav-link:hover,
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover {
+  background-color: transparent;
+  color: #000
+}
+
+.nav-pills.md-pills .nav-item .active {
+  border: none;
+  background-color: #4285F4;
+  color: #fff
+}
+
+.nav-pills.md-pills .nav-item:hover {
+  background-color: red;
+  color: #45526E;
+  font-weight: 500;
+  border-left: none
+}
+
+.nav-pills .nav-item a {
+  color: #666
+}
+
+.nav-pills .nav-item .active,
+.nav-pills .nav-item .active:active,
+.nav-pills .nav-item .active:focus,
+.nav-pills .nav-item .active:hover,
+.nav-pills .nav-item:hover {
+  background-color: transparent;
+  color: #45526E;
+  font-weight: 500
+}
+
+.nav-pills .nav-item .active {
+  border-left: 3px solid #45526E
+}
+
+.nav-pills .nav-item:hover {
+  border-left: 3px solid #45526E
+}
+
+.nav-pills .nav-item+.nav-item {
+  margin-left: 0
+}
+
+.btn-floating,
+.btn-floating i {
+  display: inline-block;
+  line-height: 37px;
+  color: #fff
+}
+
+.btn-floating {
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  width: 37px;
+  height: 37px;
+  padding: 0;
+  background-color: #a6c;
+  border-radius: 50%;
+  -webkit-transition: .3s;
+  transition: .3s;
+  margin: 10px;
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12)
+}
+
+.btn-floating:hover {
+	-webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15);
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, .18), 0 4px 15px 0 rgba(0, 0, 0, .15)
+}
+
+.btn-floating,
+.btn-floating i {
+  display: inline-block;
+  line-height: 37px;
+  color: #fff
+}
+
+.btn-floating i {
+  width: inherit;
+  text-align: center;
+  font-size: 1.6rem
+}
+
+.btn-floating:before {
+  border-radius: 0
+}
+
+.btn-floating.btn-large {
+  width: 55.5px;
+  height: 55.5px
+}
+
+.btn-floating.btn-large i {
+  line-height: 55.5px
+}
+
+.fixed-action-btn ul a.btn-floating {
+  opacity: 0
+}
+
+.card .card-share .social-reveal .btn-floating {
+  margin: .3rem
+}
+
+
+.fixed-action-btn {
+  position: fixed;
+  right: 23px;
+  bottom: 23px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  z-index: 998
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html> 
+
+
+<html ng-app="contactAPP">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Contact Application Pavan.S</title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<!--[if lt IE 9]>
+			<script src="/lib/respond.min.js"></script>
+			<script src="/lib/html5shiv.min.js"></script>
+			<script src="/lib/selectivizr.js"></script>
+		 <!-- <![endif] -->
+		
+		<!-- Library CSS Start-->
+		<!-- Bootstrap core CSS -->
+		<link href="lib/bootstrap.css" rel="stylesheet">
+		<!-- Material Design Bootstrap -->
+		<link href="lib/mdb.css" rel="stylesheet">
+		<!-- FA -->
+		<link href="lib/font-awesome.css" rel="stylesheet">
+		<!-- Library CSS End-->
+		
+		<!-- CUSTOM CSS's -->
+		<link rel="stylesheet" href="css/myStyles.css">
+	</head>
+	
+	<body ng-controller="appCtrl" style="background: url(/images/vendresurcoozook.jpg);height:auto; width:100%">
+	
+	<span ng-show="spinneractive == true" us-spinner="{radius:30, width:8, length: 16}"></span>
+
+    <div ng-show="spinneractive == false" ng-class="(isActive() == '/home')? 'ui-view': ''" ui-view ng-cloak></div>
+    <!--/.Mask-->
+
+		
+	
+		<!-- Non Anular-JS Libraries-->
+		<!-- JQuery -->
+		<script type="text/javascript" src="lib/jquery-3.1.1.js"></script>
+		<!-- Bootstrap tooltips -->
+		<script type="text/javascript" src="lib/tether.js"></script>
+		<!-- Bootstrap core JavaScript -->
+		<script type="text/javascript" src="lib/bootstrap.js"></script>
+		<!-- MDB core JavaScript -->
+		<script type="text/javascript" src="lib/mdb.js"></script>
+		<!-- WOW JavaScripts -->	
+		<script type="text/javascript" src="lib/wow.js"></script>
+		<script>new WOW().init();</script>	
+		<!-- Spin Javascript -->
+		<script type="text/javascript" src="lib/spin.js"></script>
+		
+		
+		<!-- Angular Libraries JS -->
+		<script src="lib/angular.min.js"></script>
+		<script src="lib/angular-ui-router.js"></script>
+		<script src="lib/angular-validator.js"></script>
+		<script src="lib/angular-animate.js"></script>
+		<script src="lib/angular-scroll.js"></script>
+		<script src="lib/angular-spinner.js"></script>
+		<!-- APP JS -->
+		<script src="/app.js"></script>
+		
+		<!-- SERVICES JS -->
+		<script src="services/validatorService.js"></script>
+		<script src="services/ng-file-upload-shim.min.js"></script>
+		<script src="services/ng-file-upload.min.js"></script>
+		
+		
+		<!-- DIRECTIVES JS -->
+		
+		<script src="/directives/multipleDirective.js"></script>
+		
+		<!-- CONTROLLERS JS -->
+		<script src="controllers/appCtrl.js"></script>
+		<script src="controllers/home2Ctrl.js"></script>
+	
+	</body>
+</html>

@@ -1,0 +1,94 @@
+<div class="container-fluid remove-padding">
+	<h1> Contacts Application Pavan.S</h1>
+
+<div class="jumbotron" style="padding:0px;">
+    <div class="card-header text-left" >
+		<h2>Add or update contact</h2>
+	</div>
+	<div>
+	
+		<form novalidate angular-validator angular-validator-submit='submit(contact._id)' name='contactForm'>
+			<div class="row" style="padding:20px">
+				<div class="col-sm-12 col-md-6">
+				<img ng-if="editImage == false" class="img-thumbnail" ngf-thumbnail="file">
+				<img ng-if="editImage == true" src="{{contact.filePath}}" class="img-thumbnail">
+				<a class="btn btn-primary btn-rounded" type="file" name="userphoto" ngf-select ng-click="addImage()" ng-model="file">Add Image</a>
+				</div>
+				
+				<div class="col-sm-12 col-md-6 md-form">
+				
+						<input placeholder="First Name" name="Fname" type="text" id="firstName" class="form-control" validate-on='blur' ng-model='contact.firstName' invalid-message="nameValidator(contact.firstName)" validator="nameValidator(contact.firstName) == true" required-message="'Please enter your firstName!'" required>
+						<label for="form1" class=""></label>					
+						
+						<input placeholder="Last Name" name="Lname" type="text" id="lastName" class="form-control" validate-on='blur' ng-model='contact.lastName' invalid-message="nameValidator(contact.lastName)" validator="nameValidator(contact.lastName) == true" required-message="'Please enter your lastName!'" required>
+						<label for="form1" class=""></label>
+						
+						<input placeholder="Phone Number" name="phone" type="text" id="phoneNumber" maxlength="10" class="form-control" validate-on='blur' ng-model='contact.phoneNumber' invalid-message="phoneValidator(contact.phoneNumber)" validator="phoneValidator(contact.phoneNumber) == true" required-message="'Please enter your Phone Number!'" required>
+						<label for="form1" class=""></label>
+						
+						<input placeholder="abc@xyz.com" name="email" type="text" id="email" class="form-control" validate-on='blur' ng-model='contact.email' invalid-message="emailValidator(contact.email)" validator="emailValidator(contact.email) == true" required-message="'Please enter your Email Address!'" required>
+						<label for="form1" class=""></label>
+
+												
+						<button ng-if="editdetails == false" type="submit" class="btn btn-primary" style="width:95%">Add Contact</button>
+						
+						<button ng-if="editdetails == true" type="submit" class="btn btn-primary" style="width:95%">Update Contact</button>
+				
+			</div>				
+			</div>
+			
+		</form>	
+	</div>
+	
+	
+	
+    <!-- <p class="lead"> -->
+        <!-- <a class="btn btn-primary btn-lg" role="button">Learn more</a> -->
+    <!-- </p> -->
+</div>
+
+<div class="row">
+<!--Card-->
+<div class="col-xs-4 col-sm-3 col-md-3 card" ng-repeat="contact in contactList"
+ style="margin:5px;">
+
+    <!--Card image-->
+    <div class="overlay hm-white-slight">
+        <img src="{{contact.filePath}}" alt="">
+        <a href="#">
+            <div class="mask waves-effect waves-light"></div>
+        </a>
+    </div>
+    <!--/.Card image-->
+
+    <!--Card content-->
+    <div class="card-block" style="padding:0px;overflow:hidden;">
+        <!--Title-->
+        <h4 class="card-title">Contact details</h4>
+        <!--Text-->
+        <p class="card-text">First Name: {{contact.firstName}}</p>
+		<p class="card-text">Last Name: {{contact.lastName}}</p>
+		<p class="card-text">Phone Number: {{contact.phoneNumber}}</p>
+		<p class="card-text">Email Address: {{contact.email}}</p>
+		<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12">
+		<button type="button" class="btn btn-blue-grey custButton" ng-click="editContact(contact._id)"style="width:100% !important">Edit</button>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12">
+		<button type="button" class="btn btn-blue-grey custButton" ng-click="removeContact(contact._id)" style="width:100% !important">Remove</button>
+		</div>
+        </div>
+    </div>
+    <!--/.Card content-->
+
+</div>
+<!--/.Card-->
+</div>
+
+<div ng-if="editdetails == true" class="fixed-action-btn" style="bottom: 45px; right: 24px;">
+		<a ng-click="reload()" class="btn-floating btn-large stylish-color">
+			<i class="fa fa-plus" aria-hidden="true"></i>
+		</a>
+	</div>
+</div>
+

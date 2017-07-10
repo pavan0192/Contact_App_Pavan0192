@@ -1,0 +1,278 @@
+.introLoader {
+    width: 180px;
+    height: 180px;
+    position: absolute;
+    z-index: 9999;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.introLoader:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(http://wrapcraft.in/images/loading/3.png) no-repeat 0 0;
+    -webkit-animation: introLoader-rotate-slow 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+    -moz-animation: introLoader-rotate-slow 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+    -ms-animation: introLoader-rotate-slow 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+    animation: introLoader-rotate-slow 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+}
+
+.introLoader:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(http://wrapcraft.in/images/loading/2.png);
+    -webkit-animation: introLoader-rotate-fast 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+    -moz-animation: introLoader-rotate-fast 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+    -ms-animation: introLoader-rotate-fast 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+    animation: introLoader-rotate-fast 30s 0s cubic-bezier(1.000, 0.030, 0.935, 0.180) infinite;
+}
+
+.introLoader i {
+    display: block;
+    background: url(http://wrapcraft.in/images/loading/wc.png) no-repeat 0 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-indent: -9999px;
+}
+
+.introLoader i:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: url(http://wrapcraft.in/images/loading/1.png);
+    opacity: 1;
+    -webkit-animation: introLoader-opacity 2s 0s ease infinite;
+    -moz-animation: introLoader-opacity 2s 0s ease infinite;
+    -ms-animation: introLoader-opacity 2s 0s ease infinite;
+    animation: introLoader-opacity 2s 0s ease infinite;
+}
+
+.ieNotice {
+    width: 100%;
+    height: 100px;
+    display: block;
+    position: relative;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 8%;
+    
+    color: darkred;
+    font-family: 'Titillium Web', ‘Lucida Sans Unicode’, ‘Lucida Grande’, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+
+    text-align: center;
+}
+
+.ieNotice a {
+    color: darkred;
+}
+
+.ltie7Logo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    background-image: url('src/app/content/images/intropage/akrapovic-loader-png.png');
+    background-repeat:no-repeat;
+    background-position:center;
+}
+
+@-webkit-keyframes introLoader-opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes introLoader-opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes introLoader-opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes introLoader-opacity {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes introLoader-rotate-fast {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+
+    }
+
+    100% {
+        -webkit-transform: rotate(-100000deg);
+        -ms-transform:rotate(-100000deg);
+        transform:rotate(-100000deg);
+
+    }
+}
+
+@-moz-keyframes introLoader-rotate-fast {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-100000deg);
+        -ms-transform:rotate(-100000deg);
+        transform:rotate(-100000deg);
+    }
+}
+
+@-o-keyframes introLoader-rotate-fast {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-100000deg);
+        -ms-transform:rotate(-100000deg);
+        transform:rotate(-100000deg);
+    }
+}
+
+@keyframes introLoader-rotate-fast {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-100000deg);
+        -ms-transform:rotate(-100000deg);
+        transform:rotate(-100000deg);
+    }
+}
+
+@-webkit-keyframes introLoader-rotate-slow {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-72000deg);
+        -ms-transform:rotate(-72000deg);
+        transform:rotate(-72000deg);
+    }
+}
+
+@-moz-keyframes introLoader-rotate-slow {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-72000deg);
+        -ms-transform:rotate(-72000deg);
+        transform:rotate(-72000deg);
+    }
+}
+
+@-o-keyframes introLoader-rotate-slow {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-72000deg);
+        -ms-transform:rotate(-72000deg);
+        transform:rotate(-72000deg);
+    }
+}
+
+@keyframes introLoader-rotate-slow {
+    0% {
+        -webkit-transform: rotate(0deg);
+        -ms-transform:rotate(0deg);
+        transform:rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(-72000deg);
+        -ms-transform:rotate(-72000deg);
+        transform:rotate(-72000deg);
+    }
+}	
+

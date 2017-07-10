@@ -1,0 +1,388 @@
+/* .full { */
+    /* background: url('http://placehold.it/1920x1080') no-repeat center center fixed; */
+    /* -webkit-background-size: cover; */
+    /* -moz-background-size: cover; */
+    /* background-size: cover; */
+    /* -o-background-size: cover; */
+    /* height:100%; */
+/* } */  
+/* .img1 { */
+	/* background: url('/images/post_67_13.jpg ') no-repeat center center fixed; */
+	
+/* } */
+
+<style type="text/css">
+.bgimg {
+    background-image: url('/images/vendresurcoozook.jpg');
+}
+</style>
+.remove-padding {
+   padding: 0px !important;
+   margin: 0px !important; 
+}
+.maxx{
+	width: 100%;
+	height: 100%;
+}
+
+    .img3 {
+        background-color: lightblue;
+    }
+
+	@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { 
+	.aaa {
+        background-color: lightblue;
+    }
+	}
+	
+	@media (min-width: 576px){
+.offset11-sm-3 {
+    margin-left: 25% !important;
+}
+	}
+
+.themecolor
+{
+    color:black;/*Defines the theme color*/
+}
+
+.bg-image {
+    position: relative;
+}
+.bg-image img {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    /* corresponds to max height of 450px */
+    
+    margin: 0;
+}
+.bg-image h1 {
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+}
+.fontRobot1{
+	font-family: 'Roboto', sans-serif;
+}
+.no-margin {
+    margin: 0;
+}
+.nav-no-highlight:focus {
+	color : #9d9d9d;
+}
+.custom-img-tab {
+	width: 16.20%;
+}
+
+#map {
+    height: 400px;
+    width: 600px;
+}
+.infoWindowContent {
+    font-size: 14px !important;
+    border-top: 1px solid #ccc;
+    padding-top: 10px;
+}
+.contact {
+    padding: 25px 0 310px 0;
+    /* background: url(/images/contactUs.jpg) no-repeat center center fixed; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.contact i {
+    padding: 0 20px;
+    font-size: 0.8em;
+}
+.contact h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    /* border: 1px solid #555; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding-top: 20px;
+    height: 75px;
+    color: #333;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 50px;
+    text-align: center;
+}
+#comments {
+    margin-top: 0;
+}
+#contactform {
+    height: 215px;
+}
+#contactform .right {
+    float: right;
+}
+#contactform input,
+#contactform textarea {
+    margin-bottom: 14px;
+    width: 100%;
+    outline: 2px;
+    border: 2px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+}
+#contactform input {
+    padding-left: 15px;
+    height: 44px;
+    border-radius: 10px;
+}
+#contactform textarea {
+    padding: 15px;
+    height: 218px;
+    border-radius: 0;
+}
+#contactform .btn {
+    width: 100%;
+    height: 50px;
+    border-radius: 0;
+    border: 1px solid #333;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+}
+#contactform .btn:hover {
+    /*background: rgba(9, 8, 77, 0.7);*/
+	background: #6600CC;
+}
+#map-canvas {
+    width: 100%;
+    height: 185px;
+    margin-bottom: 15px;
+    border: 2px solid #fff;
+}
+.ourServices {
+    padding: 25px 0 100px 0;
+	
+    /* background: url(/images/cat2.jpg) no-repeat center center fixed; */
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-color: #fff1de;
+}
+.ourServices i {
+    padding: 0 20px;
+    font-size: 0.8em;
+}
+.ourServices h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    /* border: 1px solid #555; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding-top: 20px;
+    height: 75px;
+    color: #333;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 50px;
+    text-align: center;
+}
+.ourTeam {
+    padding: 25px 0 165px 0;
+	
+    /* background: url(/images/About-Us.jpg) no-repeat center center fixed; */
+	
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.ourTeam i {
+    padding: 0 20px;
+    font-size: 0.8em;
+}
+.ourTeam h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    /* border: 1px solid #555; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding-top: 20px;
+    height: 75px;
+    color: #333;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 50px;
+    text-align: center;
+}
+.whatWeDo {
+    padding: 25px 0 50px 0;
+	/*  background: url(/images/whatwedoback.jpg) no-repeat center center fixed;     */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	background-color: #f2f2f2;
+}
+.whatWeDo i {
+    padding: 0 20px;
+    font-size: 0.8em;
+}
+.whatWeDo h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 2.5em;
+    /* border: 1px solid #555; */
+    /* background-color: rgba(0, 0, 0, 0.6); */
+    padding-top: 20px;
+    height: 75px;
+    color: #333;
+    font-weight: 500;
+    line-height: 40px;
+    padding-left: 50px;
+    text-align: center;
+}
+.inputCustom {
+	background-color:#333;
+}
+.selectButton {
+	border-radius: 10px;
+}
+/* FOR WHAT WE DO TABS - START */
+
+.desktop {
+    display: none;
+	background-color: #fbfbfb;
+}
+
+.off {
+    display: none;
+}
+
+@media (min-width: 768px) {
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+}
+.tabs-img {
+	height: 100px;
+	width: 100%;
+}
+.tab-ul-padding{
+	margin-left:14px;
+	margin-right:14px;
+}
+.no-padding-bottom {
+	padding-bottom : 0px !important;
+}
+.custom-active {
+	color: #337ab7;
+    cursor: default;
+    background-color: transparent;
+    border: 2px solid #333;	
+    border-top-color: transparent;
+	border-right-color: transparent;
+	border-left-color: transparent;	
+	padding:0px;
+}
+.custom-panel  {
+    background-color: transparent;
+	/* border: 3px solid #5bc0de; */
+	color: #333;
+}
+.no-border {
+	border: 0px;
+}
+
+/* FOR WHAT WE DO TABS - END */
+
+
+
+/* SERVICE TEXT CSS */
+
+.imgservice {
+   width: 100%;
+   max-height: 300px;
+}
+.SerImgTxt {
+    z-index: 99;
+ margin-left: 1%;
+    vertical-align: middle;
+    position: absolute;
+    top: 25%;  /* Obvious problem, cause it's arbitrary  */
+}
+.SerImgTxt1 {
+    z-index: 99;
+    margin-left: 15%;
+    vertical-align: middle;
+    position: absolute;
+    top: 25%; /* / Obvious problem, cause it's arbitrary / */
+}
+p.Serv {
+ padding-left: 10px;
+ color: yellow;
+ font-size: 23px;
+ font-family: 'Roboto', sans-serif;
+}
+p.Serv1 {
+ padding-right: 100px;
+ color: yellow;
+ font-size: 23px;
+ font-family: 'Roboto', sans-serif;
+}
+@media only screen and (max-width: 500px) {
+    p.Serv {
+        padding-right: 1px;
+  padding-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    p.Serv1 {
+        padding-right: 10px;
+    }
+}
+@media only screen and (max-width: 991px) {
+    p.Serv1 {
+        padding-right: 40px;
+  color: red;
+    }
+}
+
+/* SERVICE TEXT CSS END */
+
+
+/* Our SERVICE CSS Modified */
+.custButton{
+	text-align:center;
+	padding:15px;	
+}
+
+.half {
+  margin-top: 5px;  
+  margin-bottom: 5px;
+  float:left;
+}
+
+.boot-padding{
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+@media screen and (max-width: 400px){
+    .img2 { width: 100%; }    
+}
+
+
+
+@media screen and (min-width:401px) and (max-width:560px) {
+    .img2 { width: 50%; }   
+}	
+
+@media screen and (min-width:561px) and (max-width:991px) {
+    .img2 { width: 25%; }   
+}	
+/* Our SERVICE CSS Modified */
