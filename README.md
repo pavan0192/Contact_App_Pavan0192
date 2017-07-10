@@ -8,7 +8,7 @@ Step 1:
 commandPrompt on the server path where the server.js file exists.
 
 Step 2:
-command - npm install
+command : npm install
 
 step 3:
 commandPrompt on the pathe where mongodb is installed.
@@ -20,17 +20,15 @@ EX: This is the path in which i have installed mongodb in my PC "C:\Program File
 step 4:
 commandPrompt on the path where mongodb is installed.
 
-Command : mongo
+Command 1 : mongo
 
-EX: This is the path in which i have installed mongodb in my PC "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe".
 
-step 5:
-command : db.dropDatabase()
+command 2 : db.dropDatabase()
 
 (This command would drop any junk data in the db if any are present)
 
-EX: This is the path in which i have installed mongodb in my PC "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe"
+EX: This is the path in which i have installed mongodb in my PC "C:\Program Files\MongoDB\Server\3.4\bin\mongod.exe".
 
-Step 6:
-Paste the below link in the Browser.
+Step 5:
+Paste the below link in the Browser :
 http://localhost:3000/#/home2
