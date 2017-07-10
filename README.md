@@ -1,7 +1,7 @@
 # Contact_App_Pavan0192
 A contact Apllication built on MEAN Stack.
 
-6 Simple steps to get the application working.
+5 Simple steps to get the application working.
 
 
 Step 1:
