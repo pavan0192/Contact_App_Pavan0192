@@ -21,7 +21,7 @@ db.on('connect', function () {
 app.use(express.static('public'));
 
 debug('booting %s', app);
-app.use(express.static(path.join(process.cwd(),"/../Client")));
+app.use(express.static(path.join(process.cwd(),"/public")));
 app.use(bodyParser.json());
 
 app.listen(3000);
